@@ -1,17 +1,17 @@
 local Library = require "CoronaLibrary"
 
 -- Create library
-local plugin_appsflyer = Library:new{ name='plugin.appsflyer', publisherId='com.appsflyer' }
+local plugin_appsflyer = Library:new{ name='plugin.appsflyer.strict', publisherId='com.appsflyer' }
 
 -------------------------------------------------------------------------------
 -- BEGIN (Insert your implementation starting here)
 -------------------------------------------------------------------------------
 
 -- This sample implements the following Lua:
--- 
+--
 --    local appsflyer = require "plugin.appsflyer"
 --    appsflyer.init()
---    
+--
 plugin_appsflyer.init = function()
 end
 
